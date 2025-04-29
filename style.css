@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 50px; /* Reduzido pela metade */
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+.logo {
+  margin-top: 0px; /* Adicione um espaçamento opcional */
+}
+
+#logo{
+  margin: 0 auto;
+  margin: 75px; /* Ajustado para metade */
+  margin-top: 75px; /* Ajustado para metade */
+  width: 500px;
+}
+#Bem-vindo{
+  margin-left: 500px; /* Ajustado para metade */
+  margin-top: 35px; /* Ajustado para metade */
+  font-size: 75px; /* Reduzido pela metade */
+  padding-bottom: 25px; /* Ajustado para metade */
+}
+
+#titulo-one{
+  margin-left: 350px; /* Ajustado para metade */
+  font-size: 35px; /* Reduzido pela metade */
+}
+#Texto-menusuperior{
+  margin-left: 350px; /* Ajustado para metade */
+  font-size: 30px; /* Reduzido pela metade */
+  padding-bottom: 75px; /* Ajustado para metade */
+}
+#menu-superior {
+  background-color: black;
+  background-image: url(imagens/background.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  padding: 25px 0; /* Ajustado para metade */
+}
+#menu-informacional {
+  background-color: azure;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0; /* Ajustado para metade */
+}
+
+.info-item {
+  display: flex;
+  flex-direction: row; /* <-- muda aqui para lado a lado */
+  align-items: center;
+  gap: 10px; /* Ajustado para metade */
+}
+
+.info-item img {
+  width: 150px; /* Reduzido pela metade */
+}
+
+.info-item p {
+  font-size: 35px; /* Reduzido pela metade */
+  margin: 0;
+}
+#secaovideo{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#titulovideo{
+  color: #3e3ea0;
+  margin-top: 75px; /* Ajustado para metade */
+  font-size: 50px; /* Reduzido pela metade */
+  
+}
+#video{
+  margin: 75px 12px 25px 100px; /* Ajustado para metade */
+}
+.paragrafo-video{
+  font-size: 35px; /* Reduzido pela metade */
+  margin-bottom: 75px; /* Ajustado para metade */
+}
+#carrossel{
+background-color: #4169e1;
+padding: 40px; /* Ajustado para metade */
+}
+#titulo-carossel{
+color: white;
+text-align: center;
+font-size: 50px; /* Reduzido pela metade */
+padding: 50px; /* Ajustado para metade */
+}
+.cards {
+width: 750px; /* Reduzido pela metade */
+height: auto; /* Mantém a proporção */
+border-radius: 20px; /* Deixa com cantos arredondados se quiser estilo card */
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Adiciona sombra para parecer card */
+margin: 0 auto; /* Centraliza se estiver num container com `text-align: center` */
+display: flex;
+}
+#div-cards{
+display:grid;
+grid-auto-flow: column;
+}
+#seta-esquerda{
+display: none;
+}
+#eduarda{
+display: none;
+}
+.seta{
+margin-top: 10%; /* Ajustado para metade */
+margin: auto;
+cursor: pointer;
+}
+
+.seta:hover{
+transform: translateY(-5px); /* Ajustado para metade */
+transition-duration: 5ms;
+}
+#Formulario{
+text-align: center;
+}
+#titulo-formulario{
+font-size: 35px; /* Reduzido pela metade */
+margin: 12px; /* Ajustado para metade */
+color: #3e3ea0;
+}
+input{
+font-size: 50px; /* Reduzido pela metade */
+margin: 25px; /* Ajustado para metade */
+border-radius: 10px;
+padding-left: 15px; /* Ajustado para metade */
+border: 0px;
+background-color: rgb(206, 208, 216);
+}
+button{
+background-color: #3e3ea0;
+font-size: 35px; /* Reduzido pela metade */
+padding: 15px 25px; /* Ajustado para metade */
+color: white;
+border: 0px;
+border-radius: 10px;
+margin-bottom: 30px; /* Ajustado para metade */
+font-weight: bolder;
+cursor: pointer;
+}
+button:hover{
+background-color: #3e3ea0;
+transform: translateY(-5px); /* Ajustado para metade */
+transition-duration: 5ms;
+box-shadow: 0px 10px 15px #1a1a44; /* Ajustado para metade */
+}

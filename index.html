@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <title> Escola DNC </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- MENU SUPERIOR -->
+  <div id="menu-superior">
+    <a href="https://www.escoladnc.com.br">
+      <img src="./imagens/logo.jpg" id="logo" alt="ERROR" class="logo">
+    </a>
+    <h1 id="Bem-vindo"> Bem-vindo! </h1>
+    <h2 id="titulo-one"> Comece sua jornada com especialistas da área </h2>
+    <p id="Texto-menusuperior"> Desbloqueie conteúdos práticos e objetivos, feitos para acelerar seu aprendizado e transformar teoria em ação. </p>
+  </div>
+
+  <!-- MENU INFORNACIONAL -->
+  <div id="menu-informacional">
+    <div class="info-item">
+      <img src="./imagens/icones/certificado.png" alt="certificado" class="icone">
+      <p>certificado de conclusão</p>
+    </div>
+    <div class="info-item">
+      <img src="./imagens/icones/relogio.png" alt="relogio" class="icone">
+      <p>4 horas de conteúdo</p>
+    </div>
+    <div class="info-item">
+      <img src="./imagens/icones/camera.png" alt="camera" class="icone">
+      <p>Aulas onlines gravadas</p>
+    </div>
+  </div>
+
+  <!-- SEÇÃO VIDEO -->
+  <div id="secaovideo">
+    <iframe id="video" width="835" height="457" src="https://www.youtube.com/embed/GeKpwBy8f14" title="Carreira como Engenheiro de Software: por onde começar? | Escola DNC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div>
+      <h1 id="titulovideo">Aprenda com especialistas e <br>comece seu primeiro projeto</h1>
+      <p class="paragrafo-video">Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.</p>
+      <p class="paragrafo-video">Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+    </div>
+  </div>
+
+  <!-- CARROSSEL -->
+  <div id="carrossel">
+    <h1 id="titulo-carossel"> Mais de 500 alunos já iniciaram seus estudos </h1>
+    <!-- DIVISÃO DOS CARDS -->
+    <div id="div-cards">
+      <img id="seta-esquerda" onclick="RolarParaEsquerda()" src="./imagens/icones/seta-esquerda.png" alt="ERROR" class="seta">
+      <img id="leonardo" src="./cards/leonardo.png" alt="ERROR" class="cards">
+      <img id="pocoyo" src="./cards/pocoyo.png" alt="ERROR" class="cards">
+      <img id="eduarda" src="./cards/eduarda.png" alt="ERROR" class="cards">
+      <img id="seta-direita" onclick="RolarParaDireita()" src="./imagens/icones/seta-direita.png" alt="ERROR" class="seta">
+    </div>
+  </div>
+
+  <!-- FORMULÁRIO -->
+  <div id="Formulario">
+    <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+    <form action="https://api.sheetmonkey.io/form/c5o1fitM4eEJ5FhR1rqwy4" method="post">
+      <input type="text" placeholder="Nome" name="Name" required> <br>
+      <input type="email" placeholder="Email" name="Email" required> <br>
+      <input type="number" placeholder="Telefone" name="Phone"> <br>
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      <button type="submit" id="Botao">Acesse a ementa grátis</button>
+    </form> 
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
